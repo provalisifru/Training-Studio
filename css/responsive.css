@@ -1,0 +1,391 @@
+@media (max-width: 850px) {
+  .padajuci-meni {
+    display: block;
+  }
+  .computer {
+    display: none;
+  }
+  .mobile {
+    display: inline;
+  }
+  .hamburger {
+    font-size: 32px;
+    background-color: white;
+    float: right;
+  }
+  .header-area {
+    background-color: white;
+    transition: 0.5s;
+  }
+  .logo {
+    color: black;
+  }
+  .logo-div {
+    position: absolute;
+    left: 15%;
+  }
+  .contact {
+    color: black;
+  }
+  .dropdown-content {
+    position: relative;
+    top: 5px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-div {
+    position: absolute;
+    left: 15%;
+    z-index: 9999;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .member {
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border: solid orangered;
+    background-color: orangered;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .work {
+    font-weight: bold;
+    color: white;
+  }
+  .easy {
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+  }
+  .gym {
+    color: orangered;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1200px) {
+  .klase {
+    width: 250px;
+  }
+  .klase-div {
+    max-width: 200px;
+  }
+  .schedules {
+    width: 250px;
+  }
+  .content1 {
+    max-width: 450px;
+  }
+  .image-radius {
+    width: 450px;
+  }
+}
+@media (max-width: 1060px) {
+  .rows-columns {
+    grid-template-columns: 250px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    justify-content: left;
+    padding-left: 200px;
+  }
+  td {
+    width: 85px;
+    height: 45px;
+    border: 2px solid white;
+    padding: 30px 50px 30px 50px;
+  }
+  .trainers-grid {
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 400px;
+    margin: auto;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .trainers-blokovi {
+    height: 400px;
+    width: 170px;
+  }
+  .trainers-slike {
+    height: 170px;
+    width: 220px;
+    padding-bottom: 20px;
+  }
+  .trainers-imena {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #contact {
+    height: 400px;
+  }
+  .mapa {
+    height: 400px;
+  }
+  .contact-image {
+    height: 400px;
+  }
+  .big-box {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 75px 75px 10px;
+  }
+  .message {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .rows-columns {
+    grid-template-columns: 250px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    justify-content: left;
+    padding-left: 25%;
+  }
+  td {
+    width: 65px;
+    height: 35px;
+    border: 2px solid white;
+    padding: 30px 50px 30px 50px;
+  }
+}
+@media (max-width: 800px) {
+  .rows-columns {
+    grid-template-columns: 100px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    justify-content: left;
+    padding-left: 5%;
+  }
+  .schedules {
+    margin-bottom: 100px;
+  }
+  .klase-content {
+    display: block;
+  }
+  .klase-div {
+    padding-top: 50px;
+    margin: auto;
+  }
+  .image-radius {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .content1 {
+    width: 300px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .content2 {
+    width: 300px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .content3 {
+    width: 300px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .content4 {
+    width: 300px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .training-paragraph {
+    width: 250px;
+    margin: auto;
+  }
+  .training-schedules {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .trainers-grid {
+    grid-template-columns: 370px;
+    grid-template-rows: 550px 550px 550px;
+  }
+  .trainers-blokovi {
+    height: 550px;
+    width: 370px;
+  }
+  .trainers-slike {
+    height: 320px;
+    width: 370px;
+    padding-bottom: 20px;
+  }
+  .trainers-imena {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #contact {
+    display: block;
+    height: 800px;
+  }
+  .map-responsive {
+    width: 100%;
+  }
+  .contact-image {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  td {
+    width: 65px;
+    height: 35px;
+    border: 2px solid white;
+    padding: 30px 20px 30px 20px;
+  }
+}
+@media (max-width: 530px) {
+  .rows-columns {
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    justify-content: left;
+  }
+  td {
+    width: 65px;
+    height: 35px;
+    border: 2px solid white;
+    padding: 20px 10px 20px 10px;
+  }
+  .blokovi {
+    height: 100px;
+    width: 300px;
+    display: flex;
+  }
+  .block-heading {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .info-paragraph {
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    font-size: 13px;
+  }
+  .discover {
+    color: orangered;
+    font-size: 10px;
+  }
+  .about-paragraph {
+    color: gray;
+    padding-top: 10px;
+    margin: auto;
+    width: 60%;
+  }
+  .dumbell {
+    height: 50%;
+  }
+  .cta-h {
+    font-size: 28px;
+  }
+  .cta-p {
+    width: 20%px;
+    font-size: 13px;
+  }
+  .image-radius {
+    width: 300px;
+  }
+  .training-paragraph {
+    font-size: 15px;
+  }
+}
+@media (max-width: 370px) {
+  .logo {
+    font-size: 20px;
+  }
+  .logo1 {
+    font-size: 20px;
+  }
+  .klase {
+    width: 200px;
+  }
+  .klase-div {
+    max-width: 150px;
+  }
+  .schedules {
+    width: 200px;
+  }
+  td {
+    width: 65px;
+    height: 35px;
+    border: 2px solid white;
+    padding: 15px 4px 15px 4px;
+  }
+  .trainers-grid {
+    grid-template-columns: 270px;
+    grid-template-rows: 450px 450px 450px;
+  }
+  .trainers-blokovi {
+    height: 450px;
+    width: 270px;
+  }
+  .trainers-slike {
+    height: 220px;
+    width: 270px;
+    padding-bottom: 20px;
+  }
+  .trainers-imena {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #contact {
+    height: 600px;
+  }
+  .map-responsive {
+    width: 100%;
+  }
+  .mapa {
+    height: 300px;
+  }
+  .contact-image {
+    width: 100%;
+    height: 300px;
+  }
+  .small-box {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .medium-box {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .big-box {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 50px 50px 10px;
+  }
+}
+@media (max-width: 320px) {
+  .rows-columns {
+    grid-template-columns: 250px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    justify-content: left;
+  }
+  .blokovi {
+    height: 100px;
+    width: 250px;
+    display: flex;
+  }
+  .image-radius {
+    width: 250px;
+  }
+  td {
+    width: 65px;
+    height: 35px;
+    border: 2px solid white;
+    padding: 13px 2px 13px 2px;
+  }
+}

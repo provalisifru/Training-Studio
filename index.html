@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Gym." />
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/cfc0bf6f5c.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+
+
+    <div class="sekcija">
+
+
+    <header class="header-area" id="home">
+      <div class="logo-div">
+        <h1 class="logo">TRAINING <span class="active">STUDIO</span></h1>
+      </div>
+      <nav class="computer">
+        <ul>
+          <li><a class="nav" href="#home">HOME</a></li>
+          <li><a class="nav" href="#about">ABOUT</a></li>
+          <li><a class="nav" href="#classes">CLASSES</a></li>
+          <li><a class="nav" href="#schedule">SCHEDULE</a></li>
+
+          <li>
+            <div class="dropdown">
+              <a class="dropbtn" href="contact.html"
+                >CONTACT<span class="fas fa-angle-down"></span
+              ></a>
+              <div class="dropdown-content">
+                <a href="#">Email</a>
+                <a href="#">Mobile number</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile">
+        <div onclick="hamburgerFunkcija(0);" class="hamburger">
+          <span class="fas fa-bars"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="fixed">
+      <header class="header-area dodatak-header">
+        <div class="logo-div">
+          <h1 class="logo1">TRAINING <span class="active">STUDIO</span></h1>
+        </div>
+        <nav class="computer">
+          <ul id="fixni-ul">
+            <li><a class="nav1" href="#home">HOME</a></li>
+            <li><a class="nav1" href="#about">ABOUT</a></li>
+            <li><a class="nav1" href="#classes">CLASSES</a></li>
+            <li><a class="nav1" href="#schedule">SCHEDULE</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropbtn black" href="contact.html"
+                  >CONTACT<span class="fas fa-angle-down"></span
+                ></a>
+                <div class="dropdown-content">
+                  <a href="#">Email</a>
+                  <a href="#">Mobile number</a>
+                  <a href="#">Instagram</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile">
+          <div onclick="hamburgerFunkcija(1);" class="hamburger">
+            <span class="fas fa-bars"></span>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <video
+        class="video blok"
+        src="images/gym-video.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+
+      <div class="header-div">
+        <div class="bigh">
+          <h6 class="work">WORK HARDER, GET STRONGER</h6>
+          <h1 class="easy">EASY WITH OUR <span class="gym">GYM</span></h1>
+          <button class="member">BECOME A MEMBER</button>
+        </div>
+        <div class="padajuci-meni">
+          <ul class="meni">
+            <li><a class="black" href="#home">HOME</a></li>
+            <li><a class="black" href="#about">ABOUT</a></li>
+            <li><a class="black" href="#classes">CLASSES</a></li>
+            <li><a class="black" href="schedule.html">SCHEDULE</a></li>
+            <li>
+              <div class="dropdown2">
+                <a class="contact">
+                  CONTACT <span class="fas fa-angle-down"></span
+                ></a>
+                <div class="dropdown-content">
+                  <a href="#">Email</a>
+                  <a href="#">Mobile number</a>
+                  <a href="#">Instagram</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sekcija">
+
+
+      <div class="about blok" id="about">
+        <h6 class="choose-program">
+          CHOOSE <span class="active">PROGRAM</span>
+        </h6>
+        <i class="fas fa-water"></i>
+        <p class="about-paragraph">
+          Training Studio is free CSS template for gyms and fitness centers. You
+          are allowed to use this layout for your business website.
+        </p>
+      </div>
+      <div class="rows-columns">
+        <div class="blokovi">
+          <div class="left-content">
+            <img
+              class="dumbell"
+              src="images/features-first-icon.png"
+              alt="dumbell"
+            />
+          </div>
+          <div class="right-content">
+            <h4 class="block-heading">Basic Fitness</h4>
+            <p class="info-paragraph">
+              Please do not re-distribute this template ZIP file on any template
+              collection website. This is not allowed.
+            </p>
+            <a class="discover" href="index.html">DISCOVER MORE</a>
+          </div>
+        </div>
+        <div class="blokovi">
+          <div class="left-content">
+            <img
+              class="dumbell"
+              src="images/features-first-icon.png"
+              alt="dumbell"
+            />
+          </div>
+          <div class="right-content">
+            <h4 class="block-heading">Advanced Muscle Course</h4>
+            <p class="info-paragraph">
+              You may want to browse through
+              <a class="active" href="#">Digital Marketing</a> or
+              <a class="active" href="#">Corporate</a> HTML CSS templates on our
+              website.
+            </p>
+            <a class="discover" href="index.html">DISCOVER MORE</a>
+          </div>
+        </div>
+        <div class="blokovi">
+          <div class="left-content">
+            <img
+              class="dumbell"
+              src="images/features-first-icon.png"
+              alt="dumbell"
+            />
+          </div>
+          <div class="right-content">
+            <h4 class="block-heading">New Gym Training</h4>
+            <p class="info-paragraph">
+              If you wish to support TemplateMo website via PayPal, please feel
+              free to contact us. We appreciate it a lot.
+            </p>
+            <a class="discover" href="index.html">DISCOVER MORE</a>
+          </div>
+        </div>
+        <div class="blokovi">
+          <div class="left-content">
+            <img
+              class="dumbell"
+              src="images/features-first-icon.png"
+              alt="dumbell"
+            />
+          </div>
+          <div class="right-content">
+            <h4 class="block-heading">Yoga Training</h4>
+            <p class="info-paragraph">
+              This template is built on Bootstrap v4.3.1 framework. It is easy
+              to adapt the columns and sections.
+            </p>
+            <a class="discover" href="index.html">DISCOVER MORE</a>
+          </div>
+        </div>
+        <div class="blokovi">
+          <div class="left-content">
+            <img
+              class="dumbell"
+              src="images/features-first-icon.png"
+              alt="dumbell"
+            />
+          </div>
+          <div class="right-content">
+            <h4 class="block-heading">Basic Muscle Course</h4>
+            <p class="info-paragraph">
+              Credit goes to <a class="active" href="#">Pexels</a> website for
+              images and video background used in this HTML template.
+            </p>
+            <a class="discover" href="index.html">DISCOVER MORE</a>
+          </div>
+        </div>
+        <div class="blokovi">
+          <div class="left-content">
+            <img
+              class="dumbell"
+              src="images/features-first-icon.png"
+              alt="dumbell"
+            />
+          </div>
+          <div class="right-content">
+            <h4 class="block-heading">Body Building Course</h4>
+            <p class="info-paragraph">
+              Suspendisse fringilla et nisi et mattis. Curabitur sed finibus
+              nisi. Integer nibh sapien, vehicula et auctor.
+            </p>
+            <a class="discover" href="index.html">DISCOVER MORE</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+      <div class="banner">
+        <div class="cta">
+          <h2 class="cta-h">
+            DON'T <span class="active">THINK</span>, BEGIN
+            <span class="active">TODAY</span>!
+          </h2>
+          <p class="cta-p">
+            Ut consectetur, metus sit amet aliquet placerat, enim est ultricies
+            ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris
+            a nisi luctus imperdiet.
+          </p>
+          <button class="member">BECOME A MEMBER</button>
+        </div>
+      </div>
+      <div class="beli-deo sekcija">
+        <div class="about blok" id="classes">
+          <h6 class="choose-program">
+            OUR <span class="active">CLASSES</span>
+          </h6>
+          <i class="fas fa-water"></i>
+          <p class="about-paragraph">
+            Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
+            viverra ipsum dolor, ultricies fermentum massa consequat eu.
+          </p>
+        </div>
+        <div class="klase-content">
+        <div class="klase-div">
+            <a class="klase">
+              <div class="classes-dumbell">
+                <img src="images/tabs-first-icon.png" alt="dumbell" />
+              </div>
+              <div class="classes-heading active">First Training Class</div>
+            </a>
+            <a class="klase">
+              <div class="classes-dumbell">
+                <img src="images/tabs-first-icon.png" alt="dumbell" />
+              </div>
+              <div class="classes-heading">Second Training Class</div>
+            </a>
+            <a class="klase">
+              <div class="classes-dumbell">
+                <img src="images/tabs-first-icon.png" alt="dumbell" />
+              </div>
+              <div class="classes-heading">Third Training Class</div>
+            </a>
+            <a class="klase">
+              <div class="classes-dumbell">
+                <img src="images/tabs-first-icon.png" alt="dumbell" />
+              </div>
+              <div class="classes-heading">Fourth Training Class</div>
+            </a>
+            <button class="schedules">View All Schedules</button>
+        </div>
+        <div class="content1">
+          <img class="image-radius" src="images/training-image-01.jpg" alt="barbell"/>
+          <h6>First Training Class</h6>
+          <p class="training-paragraph">Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+          <button class="training-schedules">VIEW SCHEDULE</button>
+        </div>
+        <div class="content2">
+          <img class="image-radius" src="images/training-image-02.jpg" alt="yoga"/>
+          <h6>Second Training Class</h6>
+          <p class="training-paragraph">Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          <button class="training-schedules">VIEW SCHEDULE</button>
+        </div>
+        <div class="content3">
+          <img class="image-radius" src="images/training-image-03.jpg" alt="gym"/>
+          <h6>Third Training Class</h6>
+          <p class="training-paragraph">Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
+          <button class="training-schedules">VIEW SCHEDULE</button>
+        </div>
+        <div class="content4">
+          <img class="image-radius" src="images/training-image-04.jpg" alt="pilates"/>
+          <h6>Fourth Training Class</h6>
+          <p class="training-paragraph">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.</p>
+          <button class="training-schedules">VIEW SCHEDULE</button>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="schedule sekcija" id="schedule">
+        <div class="about">
+        <h6 class="choose-program">
+          CLASSES <span class="active">SCHEDULE</span>
+        </h6>
+        <i class="fas fa-water"></i>
+        <p class="schedule-paragraph">
+          Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
+          viverra ipsum dolor, ultricies fermentum massa consequat eu.
+        </p>
+      </div>
+      <div class="working-days">
+          <a class="days active">Monday</a> /
+          <a class="days">Tuesday</a> /
+          <a class="days">Wednesday</a> /
+          <a class="days">Thursday</a> /
+          <a class="days">Friday</a>
+      </div>
+<div class="monday-table">
+      <table>
+        <tr>
+          <td>Fitness Class</td>
+          <td>10:00AM - 11:30AM</td>
+          <td></td>
+          <td>William G. Stewart</td>
+        </tr>
+        <tr>
+          <td>Muscle Training</td>
+          <td></td>
+          <td></td>
+          <td>Paul D. Newman</td>
+        </tr>
+        <tr>
+          <td>Body Building</td>
+          <td></td>
+          <td>2:00PM - 3:30PM</td>
+          <td>Boyd C. Harris</td>
+        </tr>
+        <tr>
+          <td>Yoga Training Class</td>
+          <td></td>
+          <td></td>
+          <td>Hector T. Daigle</td>
+        </tr>
+        <tr>
+          <td>Advanced Training</td>
+          <td></td>
+          <td></td>
+          <td>Bret D. Bowers</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="tuesday-table">
+      <table>
+        <tr>
+          <td>Fitness Class</td>
+          <td></td>
+          <td>2:00PM - 3:30PM</td>
+          <td>William G. Stewart</td>
+        </tr>
+        <tr>
+          <td>Muscle Training</td>
+          <td></td>
+          <td></td>
+          <td>Paul D. Newman</td>
+        </tr>
+        <tr>
+          <td>Body Building</td>
+          <td>10:00AM - 11:30AM</td>
+          <td></td>
+          <td>Boyd C. Harris</td>
+        </tr>
+        <tr>
+          <td>Yoga Training Class</td>
+          <td></td>
+          <td></td>
+          <td>Hector T. Daigle</td>
+        </tr>
+        <tr>
+          <td>Advanced Training</td>
+          <td></td>
+          <td></td>
+          <td>Bret D. Bowers</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="wednesday-table">
+      <table>
+        <tr>
+          <td>Fitness Class</td>
+          <td></td>
+          <td></td>
+          <td>William G. Stewart</td>
+        </tr>
+        <tr>
+          <td>Muscle Training</td>
+          <td></td>
+          <td></td>
+          <td>Paul D. Newman</td>
+        </tr>
+        <tr>
+          <td>Body Building</td>
+          <td></td>
+          <td></td>
+          <td>Boyd C. Harris</td>
+        </tr>
+        <tr>
+          <td>Yoga Training Class</td>
+          <td>10:00AM - 11:30AM</td>
+          <td></td>
+          <td>Hector T. Daigle</td>
+        </tr>
+        <tr>
+          <td>Advanced Training</td>
+          <td></td>
+          <td>2:00PM - 3:30PM</td>
+          <td>Bret D. Bowers</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="thursday-table">
+      <table>
+        <tr>
+          <td>Fitness Class</td>
+          <td></td>
+          <td></td>
+          <td>William G. Stewart</td>
+        </tr>
+        <tr>
+          <td>Muscle Training</td>
+          <td></td>
+          <td>2:00PM - 3:30PM</td>
+          <td>Paul D. Newman</td>
+        </tr>
+        <tr>
+          <td>Body Building</td>
+          <td></td>
+          <td></td>
+          <td>Boyd C. Harris</td>
+        </tr>
+        <tr>
+          <td>Yoga Training Class</td>
+          <td></td>
+          <td></td>
+          <td>Hector T. Daigle</td>
+        </tr>
+        <tr>
+          <td>Advanced Training</td>
+          <td>10:00AM - 11:30AM</td>
+          <td></td>
+          <td>Bret D. Bowers</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="friday-table">
+      <table>
+        <tr>
+          <td>Fitness Class</td>
+          <td></td>
+          <td></td>
+          <td>William G. Stewart</td>
+        </tr>
+        <tr>
+          <td>Muscle Training</td>
+          <td>10:00AM - 11:30AM	</td>
+          <td></td>
+          <td>Paul D. Newman</td>
+        </tr>
+        <tr>
+          <td>Body Building</td>
+          <td></td>
+          <td></td>
+          <td>Boyd C. Harris</td>
+        </tr>
+        <tr>
+          <td>Yoga Training Class</td>
+          <td></td>
+          <td>2:00PM - 3:30PM</td>
+          <td>Hector T. Daigle</td>
+        </tr>
+        <tr>
+          <td>Advanced Training</td>
+          <td></td>
+          <td></td>
+          <td>Bret D. Bowers</td>
+        </tr>
+      </table>
+    </div>
+      </div>
+      <div class="trainers sekcija" id="trainers">
+        <div class="about">
+        <h6 class="choose-program">
+          EXPERT <span class="active">TRAINERS</span>
+        </h6>
+        <i class="fas fa-water"></i>
+        <p class="trainers-paragraph">
+          Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
+          viverra ipsum dolor, ultricies fermentum massa consequat eu.
+        </p>
+      </div>
+      <div class="trainers-grid">
+        <div class="trainers-blokovi">
+          <img class="trainers-slike" src="images/first-trainer.jpg" alt="first trainer">
+          <div class="active">Strength Trainer</div>
+          <h4 class="trainers-imena">Bret D. Bowers</h4>
+          <a class="trainers-paragraph">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</a>
+          <div class="trainers-contact">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-behance"></i>
+          </div>
+        </div>
+        <div class="trainers-blokovi">
+          <img class="trainers-slike" src="images/second-trainer.jpg" alt="second trainer">
+          <div class="active">Muscle Trainer</div>
+          <h4 class="trainers-imena">Hector T. Daigl</h4>
+          <a class="trainers-paragraph">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</a>
+          <div class="trainers-contact">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-behance"></i>
+          </div>
+        </div>
+        <div class="trainers-blokovi">
+          <img class="trainers-slike" src="images/third-trainer.jpg" alt="third trainer">
+          <div class="active">Power Trainer</div>
+          <h4 class="trainers-imena">Paul D. Newman</h4>
+          <a class="trainers-paragraph">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</a>
+          <div class="trainers-contact">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-behance"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact sekcija" id="contact">
+      <div class="map-responsive"><embed class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2815.660324598872!2d21.283468815545746!3d45.1129532790984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47506b3547c15197%3A0x5547b688d2b4479b!2sGYM%20WARRIOR%20013!5e0!3m2!1ssr!2srs!4v1631895422173!5m2!1ssr!2srs" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false"></embed></div>
+      <div class="contact-image">
+         <div class="belo">
+           <div class="inputs-container">
+          <input class="small-box" type="text" name="UserName" required maxlength=50 placeholder="Your name*">
+          <input class="small-box" type="text" name="Email" required maxlength=50 placeholder="Your email*">
+        </div>
+        <div class="inputs-container">
+          <input class="medium-box" type="text" name="Subject" maxlength=100 placeholder="Subject">
+        </div>
+        <div class="inputs-container">
+          <input class="big-box" type="text" name="Message" maxlength=1500 placeholder="Message">
+        </div>
+        <div class="message">
+        <button class="member">SEND MESSAGE</button>
+      </div>
+         </div>
+    </div>
+  </div>
+    </main>
+    <footer>
+      <a class="footer">Copyright © 2020 Training Studio - Designed by <span class="active">TemplateMo</span></a>
+    </footer>
+    <script type="text/javascript" src="javascript/script.js"></script>
+  </body>
+</html>
